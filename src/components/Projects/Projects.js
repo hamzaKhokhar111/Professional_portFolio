@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import tour from "../../Assets/Projects/tour.png";
 import hmz from "../../Assets/Projects/hmz.png";
 import ht from "../../Assets/Projects/ht.png";
+import map from "../../Assets/Projects/map.png";
+import hmoe from "../../Assets/Projects/hmoe.png";
 import gym from "../../Assets/Projects/gym.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import eshop from "../../Assets/Projects/eshop.png";
@@ -67,11 +69,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={hmoe}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title=" Real Estate Marketplace "
+              description="Built a modern real estate web application from scratch with secure authentication,
+ listing management, and property browsing. Developed using MongoDB, Express.js, React.js, Node.js (MERN).Integrated JWT for authentication, with support for Firebase and Google OAuth."
+              ghLink="https://github.com/hamzaKhokhar111/Home_RENTAL-proj"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -82,8 +85,20 @@ function Projects() {
               isBlog={false}
               title="React PortFolio"
               description="Crafted  portfolio website to showcase a curated collection of my work, skills, and experiences. Utilized a React and Node.js stack for a dynamic and responsive design. A reflection of my dedication to technology and development."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://blogs.soumya-jit.tech/"     
+              ghLink="https://github.com/hamzaKhokhar111/Professional_portFolio"
+              demoLink="https://myselfhamza.vercel.app/"     
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={map}
+              isBlog={false}
+              title=" Conceptual Map Generator"
+              description="Developed an intelligent tool to generate conceptual maps from text, PDFs, and images
+ using OCR and contextual processing Technological Stack Utilized Next.js, Node.js, Express.js, MongoDB, Tailwind CSS,  Complete CRUD functionality for property listings with image uploads."
+              ghLink="https://github.com/hamzaKhokhar111/Studdy-Pro"
+              // demoLink="https://resortsbyahsaan-550a33.netlify.app/"              
             />
           </Col>
         </Row>
