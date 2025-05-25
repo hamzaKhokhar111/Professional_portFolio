@@ -8,10 +8,10 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section" id="home" style={{ background: "linear-gradient(to right, #1e3a8a, #6b21a8, #1e40af)", color: "white" }}>
         <Particle />
-        <Container className="home-content">
-          <Row>
+        <Container className="home-content py-5">
+          <Row className="align-items-center">
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -22,20 +22,25 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name">  Hamza Ashraf</strong>
+                <strong className="main-name text-warning"> Hamza Ashraf</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ paddingTop: 30, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} className="text-center" style={{ paddingBottom: 20 }}>
               <img
                 src={hmz}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid rounded-circle shadow-lg"
+                style={{
+                  maxHeight: "300px",
+                  width: "300px",
+                  objectFit: "cover",
+                  border: "4px solid white",
+                }}
               />
             </Col>
           </Row>
