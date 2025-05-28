@@ -41,6 +41,7 @@ function Home() {
                   objectFit: "cover",
                   border: "4px solid white",
                 }}
+                
               />
             </Col>
           </Row>
