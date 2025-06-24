@@ -8,26 +8,25 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify", fontSize: "1.1em" }}>
-            Hi Everyone, I am a{" "}
-            <span className="purple">23-year-old Full Stack Developer</span>{" "}
-            based in <span className="purple">Lahore, Pakistan</span>,<br />
-            specializing in{" "}
-            <span className="purple">User Interface Design</span>,{" "}
-            <span className="purple">API Integration</span>,{" "}
-            <span className="purple">State Management</span>, and{" "}
-            <span className="purple">Web Development</span>.
+            Hi Everyone, I am <span className="purple">Hamza</span> from{" "}
+            <span className="purple">Lahore, Pakistan</span>.
+            <br />
+            I am currently working as a freelance developer on{" "}
+            <span className="purple">Fiverr</span> and also work with{" "}
+            <span className="purple">local clients</span>. Previously part of the international <span className="purple"> Headstarter Fellowship</span> as a Software Developer.{" "}
+            
             <br />
             <br />
-            I am consistently available and possess strong communication skills,
-            making me well-suited for remote team collaboration and project understanding 🔥.
+            I completed my BS (Hons.) in Information Technology from the UE, Lahore.
             <br />
             <br />
-            Working as a Full Stack Developer, I find immense joy in working on a
-            diverse range of projects for various companies and products.
+            My journey in web development began in 2020, inspired by the world of website penetration testing. 
+            I started with <span className="purple">HTML</span> and{" "}
+            <span className="purple">CSS</span>, and slowly improved my skills to a professional level.
             <br />
-            However, my true passion lies in{" "}
-            <span className="purple">software development</span>, especially when
-            I can bring tangible value to the projects and have the creative freedom to innovate.
+            <br />
+            Recently, I contributed to the <span className="purple">Conceptual Map Generator</span> project 
+            as a Backend and DevOps Engineer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -46,9 +45,11 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)", fontStyle: "italic" }}>
-            "Strive to build things that make a difference!"
+            "Engineering is about designing solutions with precision and creativity, 
+            while development brings those designs to life with practical implementation. 
+            Both are essential, but they are not the same!"
           </p>
-          <footer className="blockquote-footer">Hamza</footer>
+          <footer className="blockquote-footer">Hamza Ashraf</footer>
         </blockquote>
       </Card.Body>
     </Card>
